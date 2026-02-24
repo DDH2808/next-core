@@ -1,0 +1,13 @@
+{
+  "common": {
+    "cancel": "Hủy",
+    "home": "Trang chủ",
+    "login": "Đăng nhập",
+    "ok": "Ok"
+  },
+  "form": {
+    "select_search_placeholder": "Nhập tự khoá tìm kiếm",
+    "select_loading_data": "Đang tải thêm dữ liệu",
+    "select_empty_data": "Dữ liệu trống!"
+  }
+}

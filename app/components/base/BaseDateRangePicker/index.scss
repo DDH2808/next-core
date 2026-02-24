@@ -1,0 +1,25 @@
+.BaseDateRangePicker {
+  .ant-picker-prefix {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ant-picker-input {
+    width: fit-content !important;
+
+    input {
+      max-width: calc(var(--sizeCh) - var(--sizePx));
+      font-size: inherit !important;
+    }
+  }
+
+  .ant-picker-range-separator {
+    padding-left: 4px !important;
+  }
+
+  .ant-picker-suffix {
+    padding-left: 4px;
+    margin-left: auto !important;
+  }
+}

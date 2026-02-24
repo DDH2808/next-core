@@ -1,0 +1,28 @@
+.BaseInput {
+  .ant-input-number,
+  .ant-input-suffix,
+  .ant-input-number-suffix {
+    color: var(--color-iron-500) !important;
+    font-size: inherit;
+  }
+
+  &.BaseInput-number .ant-input-number-input-wrap {
+    height: 100%;
+
+    input {
+      padding: 0;
+      font-size: inherit;
+      height: inherit;
+    }
+  }
+
+  &.BaseInput-number.BaseInput-number--hideSpinner {
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button,
+    & {
+      -webkit-appearance: none;
+      margin: 0;
+      -moz-appearance: textfield !important;
+    }
+  }
+}

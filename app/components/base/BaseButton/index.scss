@@ -1,0 +1,10 @@
+.BaseButton {
+  .ant-btn-icon.ant-btn-loading-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  border-radius: 5px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}

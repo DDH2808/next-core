@@ -1,0 +1,48 @@
+.BaseRadioGroup {
+  .ant-radio-wrapper {
+    font-size: inherit;
+
+    .ant-radio-inner {
+      height: 20px;
+      width: 20px;
+
+      &::after {
+        height: 12px;
+        width: 12px;
+        inset-block-start: unset;
+        inset-inline-start: unset;
+        margin-block-start: unset;
+        margin-inline-start: unset;
+        border-block-start: unset;
+        border-inline-start: unset;
+        border-radius: 9999px;
+        background-color: var(--color-blue-main-700);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) !important;
+        margin: 0 !important;
+      }
+    }
+
+    .ant-radio-checked .ant-radio-inner {
+      border-color: var(--color-blue-main-700);
+      background-color: var(--color-blue-main-50);
+
+      &::after {
+        transform: scale(1);
+      }
+    }
+
+    .ant-radio-label {
+      color: var(--color-iron-700);
+      font-size: inherit;
+    }
+  }
+
+  .BaseRadioGroup__option-disabled {
+    .ant-radio-checked .ant-radio-inner {
+      border-color: var(--color-iron-300);
+      background-color: var(--color-iron-50);
+    }
+  }
+}

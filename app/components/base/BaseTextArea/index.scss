@@ -1,0 +1,10 @@
+.BaseTextArea {
+  textarea.ant-input {
+    padding: 0 !important;
+  }
+
+  .ant-input-data-count {
+    top: 100%;
+    font-size: 13px;
+  }
+}

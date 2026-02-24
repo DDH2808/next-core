@@ -1,0 +1,26 @@
+.BaseCheckboxGroup {
+  .ant-checkbox-wrapper,
+  .ant-checkbox-group-item,
+  .ant-checkbox-label {
+    font-size: inherit !important;
+    color: inherit !important;
+  }
+
+  .ant-checkbox .ant-checkbox-inner {
+    height: 22px;
+    width: 22px;
+  }
+
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--color-blue-main-50);
+    border-color: var(--color-blue-main-700);
+
+    &::after {
+      border-color: var(--color-blue-main-700);
+      width: 8px;
+      height: 14px;
+      border-radius: 1px;
+      left: 23%;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.BaseSwitch {
+  &.ant-switch.ant-switch-checked {
+    background: linear-gradient(270deg, #00bbd4 0%, #0f36db 100%) !important;
+  }
+
+  .ant-switch-handle {
+    inset-inline-start: 3px !important;
+  }
+
+  &.ant-switch.ant-switch-checked .ant-switch-handle {
+    inset-inline-start: calc(100% - 21px) !important;
+  }
+
+  .ant-switch-handle {
+    top: 3px !important;
+    width: 18px !important;
+    height: 18px !important;
+  }
+}

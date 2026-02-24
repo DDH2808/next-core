@@ -1,0 +1,11 @@
+.BaseIconButton {
+  .ant-btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.ant-btn-loading-icon {
+      font-size: 24px !important;
+    }
+  }
+}

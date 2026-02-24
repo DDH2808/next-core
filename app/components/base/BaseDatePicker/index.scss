@@ -1,0 +1,13 @@
+.BaseDatePicker {
+  .ant-picker-prefix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ant-picker-input {
+    input {
+      font-size: inherit !important;
+    }
+  }
+}

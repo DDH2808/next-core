@@ -1,0 +1,13 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "home": "Homepage",
+    "login": "Login",
+    "ok": "Ok"
+  },
+  "form": {
+    "select_search_placeholder": "Enter search keyword",
+    "select_loading_data": "Loading more data",
+    "select_empty_data": "Data empty!"
+  }
+}
